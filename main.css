@@ -1,0 +1,64 @@
+﻿body {
+    color: mintcream;
+}
+.bg-img{
+    background-image: url("images/bacground2.jpg");
+   background-size: cover;
+   background-position:center center;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+#logoFont {
+    font-size: large;
+    color: yellow;
+    font-size: -webkit-xxx-large;
+}
+a:link {
+    text-decoration: none;
+}
+ li {
+    display: inline;
+}
+   
+
+
+/*********************main(****************/
+#myTopnav{
+    width:100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    .topnav a {
+        /*float: left;*/
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+        .topnav a:hover {
+            background-color: #4CAF50;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+         /*****************************************/
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding:10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}

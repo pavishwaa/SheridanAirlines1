@@ -1,0 +1,95 @@
+﻿body {
+	color: indigo;
+	/*darkblue, darkmagenta, indigo, mediumbkue
+		,mednightblue,navy, purple,rebeccapurple
+	*/
+}
+
+.content-align {
+	/*text-align: center;*/
+	font-size: 18px;
+}
+
+
+.bg-img {
+	background-image: url("../images/bg_img.jpg");
+	background-size: cover;
+	/*background-position: center center;*/
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+#logoFont {
+	font-size: large;
+	color: yellow;
+	font-size: -webkit-xxx-large;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+}
+
+#myTopnav {
+	width: 100%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: rgba(137, 121, 172, 0.7);
+}
+
+	.topnav a {
+		/*float: left;*/
+		color: #f2f2f2;
+		text-align: center;
+		font-weight: bold;
+		padding: 14px 26px;
+		text-decoration: none;
+		font-size: 21px;
+	}
+
+		.topnav a:hover {
+			background-color: yellow;
+			color: black;
+		}
+
+		.topnav a.active {
+			background-color: yellow;
+			color: white;
+		}
+/*****************************************/
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: darkslategrey;
+	color: white;
+	text-align: center;
+}
+
+input {
+	font-size: 18px;
+}
+
+
+/********************************************/
+/*width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
+-ms-content-zooming: none;
+position: absolute;
+overflow: hidden;*/

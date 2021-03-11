@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMainPage.master.cs" Inherits="SheridanAirlines1.SiteMainPage" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sky Airline</title>
+    <link href="~/css/master.css" type="text/css" rel="stylesheet" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-img">
+    <form id="form1" runat="server">
+        <div>
+            <a href="Home.aspx" runat="server">
+                <img src="images/plane_logo_resized.png" alt="logo">&nbsp;&nbsp;&nbsp;
+                 <img src="images/brand_img.PNG" alt="brand" height="50px">
+                    <%--<span id="logoFont">Sky Airlines</span>--%>
+            </a>
+            <asp:ContentPlaceHolder ID="LogoPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <ul>
+                <li><a runat="server" href="Home.aspx">Home</a></li>
+                <li><a runat="server" href="LogIn.aspx">Log In</a></li>
+                <li><a runat="server" href="Account.aspx">Account</a></li>
+                <li><a runat="server" href="ContactUs.aspx">Contact Us</a></li>
+                <li><a runat="server" href="AboutUs.aspx">About Us</a></li>
+            </ul>
+            <asp:ContentPlaceHolder ID="navigationPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="content-align">
+            <asp:ContentPlaceHolder  ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <footer class="footer">
+                <p>&copy; <%: DateTime.Now.Year %> - All rights reserve to the "Sky Airlines"</p>
+            </footer>
+        </div>
+    </form>
+    
+</body>
+</html>

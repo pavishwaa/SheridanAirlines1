@@ -1,12 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SiteMainPage.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="SheridanAirlines1.Home" %>
 
 
-<!-- 
+
 	
-	@Owner Vishwa Patel
-	-->
-
-
+	<%--@Owner Vishwa Patel--%>
 
 
 
